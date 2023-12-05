@@ -1,0 +1,58 @@
+css
+/* Reset de margens e preenchimento para o corpo da página */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+/* Margem para o conteúdo principal */
+main {
+  margin: 20px;
+}
+
+/* Margem inferior para as seções */
+section {
+  margin-bottom: 30px;
+}
+
+/* Estilo para os cabeçalhos */
+h1, h2 {
+  color: #4CAF50;
+}
+
+/* Remover estilo padrão de listas e adicionar margem inferior para os itens da lista */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Remover estilo itálico padrão de endereços */
+address {
+  font-style: normal;
+}
+
+/* Estilizar os links de contato */
+address a {
+  color: #4CAF50;
+  text-decoration: none;
+  border-bottom: 1px dotted #4CAF50;
+}
+
+address a:hover {
+  border-bottom: 1px solid #4CAF50;
+}
